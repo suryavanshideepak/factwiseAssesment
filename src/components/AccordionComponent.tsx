@@ -25,10 +25,9 @@ import CancelOutlinedIcon from '@mui/icons-material/CancelOutlined';
 import { JsonData } from "../utils/types";
 import DeleteModal from "./DeleteModal";
 import { capitalizeFLetter, getAgeOfCelebrities } from "../utils/helper";
-import { useDispatch, useSelector } from "react-redux";
-import { deleteData, getData } from "../redux/slice/userSlice";
+import { useDispatch } from "react-redux";
+import { getData } from "../redux/slice/userSlice";
 import SnackbarMUI from "./SnackbarMUI";
-import { RootState } from "../redux/store";
 
 interface AccordionComponentProps {
   data: JsonData[],

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import CelebrityList from "./Pages/CelebrityList";
-import { Button, CssBaseline, ThemeProvider } from "@material-ui/core";
+import {  CssBaseline, ThemeProvider } from "@material-ui/core";
 import { darkTheme, lightTheme } from "./components/Theme";
 
 function App() {
